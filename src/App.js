@@ -74,7 +74,7 @@ function App() {
     <section id='todo-list'>
       <div className="container py-5 d-flex flex-column align-items-center justify-content-center">
         <div className="main-container">
-          <h1 className='text-center text-white'>Todo list</h1>
+          <h1 className='text-center text-white'>Todo List</h1>
           <div className='d-flex gap-2 align-items-center justify-content-between input-field'>
             <input type="text" name="item" placeholder='Add a new task' value={items} onChange={inputEvent} autoComplete='off' />
             {toggle? 
